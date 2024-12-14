@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: white;
+}
+
+/* HEADER */
+header {
+    background-color: #ddb892;
+    padding: 1em 13em;
+}
+
+/* NAVIGATION */
+.navigationText {
+    font-size: 24px;
+    font-weight: 900;
+    color: #7f5539;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* Aligne verticalement tous les éléments */
+}
+
+.navigationLogo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.navigationLink {
+    font-size: 18px;
+    color: #7f5539;
+    text-decoration: none;
+}
+
+/* WELCOME */
+.headerContainer {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero {
+    color: #7f5539;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.heroSubtext {
+    font-size: 18px;
+    color: #7f5539;
+}
+
+button.ctaButton {
+    padding: 7px 1em;
+    width: 120px;
+    background-color:#9c6644;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heroImageContainer {
+    flex-shrink: 0;
+    width: 50%;
+    height: auto;
+}
+
+.heroImage {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
+#teckel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* CARD SECTION */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.cardImage {
+    border: 4px solid #4d3322;
+    position: relative;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+    z-index: 1; 
+    overflow: hidden; 
+}
+.cardImage img{
+    position: relative; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 0; 
+}
+.cardDescription {
+    font-size: 16px;
+    color: #7f5539;
+}
+
+/* QUOTE */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.testimonialText {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.testimonialQuote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #7f5539;
+}
+
+/* SIGN UP */
+.signUpSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.ctaContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ddb892;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ctaHeading {
+    font-size: 24px;
+    color: #7f5539;
+}
+
+.ctaDescription {
+    font-size: 18px;
+    color: #7f5539;
+}
+
+#button{
+    color: black;
+    text-decoration: none;
+}
+
+.ctaButtonContainer {
+    margin-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #503524;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
